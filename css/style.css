@@ -35,12 +35,11 @@ body {
       height: 100vh;
       width: 55vw;
       background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)),
-            url(../images/photo-1519389950473-47ba0277781c.jpg);
+      url(../images/photo-1519389950473-47ba0277781c.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       padding: 20px 0 100px 100px;
-
 }
 
 .name {
