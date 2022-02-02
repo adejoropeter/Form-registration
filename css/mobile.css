@@ -1,3 +1,6 @@
+body{
+      background-color: #d4d2d2;
+}
 .container {
       display: flex;
       flex-direction: column;
@@ -5,10 +8,7 @@
 }
 
 .first-box {
-      height: 100vh;
-      width: 100vw;
-      padding: 20px 0 120px 80px;
-
+      display: none;
 }
 
 .footer ul {
@@ -19,8 +19,15 @@
       background-color: #d4d2d2;
       padding: 20px 50px 50px 20px;
       width: 100vw;
-      height: 100vh;
+      height: fit-content;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+}
+
+
+@media (max-width:200px){
+      .the-end a{
+            margin-top: 20px;
+      }
 }

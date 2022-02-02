@@ -172,8 +172,11 @@ button:hover .fa-angle-right {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
       margin-top: 4rem;
 }
+
+
 
 .second-box a {
       color: rgba(128, 128, 128, 0.89);
@@ -183,7 +186,7 @@ button:hover .fa-angle-right {
       border-bottom: 2px solid gray;
 }
 
-.user {
+ .user {
       display: flex;
 
 }
